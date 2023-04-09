@@ -1,10 +1,24 @@
 {
   "name": "astro-template",
   "version": "0.0.1",
-  "private": false,
+  "private": true,
+  "packageManager": "pnpm@8.1.0",
   "description": "Astro template",
-  "author": "ConteMan <real.conteman@gmail.com>",
+  "author": {
+    "name": "ConteMan",
+    "email": "real.conteman@gmail.com",
+    "url": "https://isconte.com"
+  },
   "license": "MIT",
+  "homepage": "https://github.com/ConteMan/astro-template",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/ConteMan/astro-template"
+  },
+  "keywords": [
+    "astro",
+    "template"
+  ],
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -12,8 +26,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "prepare": "husky install"
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "astro": "^2.2.1"
